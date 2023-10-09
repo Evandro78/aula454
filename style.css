@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 5;
+    background: no-repeat url(main_150705_pizza_2.jpg);
+    background-size: 1320px 907px;
+}
+/* Estilos do cabeçalho */
+header {
+    background-color: #ecec09;
+    color: rgb(0, 0, 0);
+    /*valores superior e inferior, seguido de valores da direita e esquerda.*/
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10;
+}
+
+nav ul {
+    padding: 10;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(44, 39, 39);
+}
+
+/* Estilos das seções */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    /*margin inferior*/
+    margin-bottom: 20px;
+}
+
+/* Estilos das receitas */
+.receita {
+    background-color: #ffee00;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.receita h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+h1{
+    color:black ;
+}
+h2{
+    color: red;
+    text-align: justify;
+
+}
+p{
+    color: black;
+}
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    /* Estilos responsivos aqui */
+}
+
+@media screen and (min-width: 769px) {
+    /* Estilos responsivos aqui */
+}
